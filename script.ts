@@ -39,6 +39,7 @@ let utente1 = new PrimoUtente(50, 3);
 var ricarica:any = utente1.ricarica(10)
 var minuti:any = utente1.numero404(10)
 var numeroChiamate = utente1.numeroChiamate;
+console.log('Primo Utente:')
 console.log(`Credito Iniziale ${utente1.credito}€`);
 console.log(`Credito dopo ricarica: ${ricarica} €`);
 console.log(`La chiamata è durata ${minuti} minuti`);
@@ -50,6 +51,7 @@ let utente2 = new PrimoUtente(25, 1);
 var ricarica:any = utente2.ricarica(10)
 var minuti2:any = utente2.numero404(5);
 var numeroChiamate2 = utente2.numeroChiamate;
+console.log('Secondo Utente:')
 console.log(`Credito Iniziale ${utente2.credito}€`);
 console.log(`Credito dopo ricarica: ${ricarica} €`);
 console.log(`La chiamata è durata ${utente2.chiamata(10)} minuti`);
@@ -61,6 +63,7 @@ let utente3 = new PrimoUtente(100, 4);
 var ricarica:any = utente3.ricarica(50)
 var minuti3:any = utente3.numero404(20);
 var numeroChiamate3 = utente3.numeroChiamate;
+console.log('Terzo Utente:')
 console.log(`Credito Iniziale ${utente3.credito}€`);
 console.log(`Credito dopo ricarica: ${ricarica} €`);
 console.log(`La chiamata è durata ${minuti3} minuti`);
